@@ -1,0 +1,9 @@
+[verilog]
+include_paths = ["src"]
+defines = ["DEBUG", "VAR=1"]
+
+[option]
+linter = true
+
+[rules]
+input_with_var = false
